@@ -1,0 +1,6 @@
+C:\Users\Niall\Documents\Solutions\Niall Ferguson - RobotTechTest\Test\bin\Debug\Test.exe.config
+C:\Users\Niall\Documents\Solutions\Niall Ferguson - RobotTechTest\Test\bin\Debug\Test.exe
+C:\Users\Niall\Documents\Solutions\Niall Ferguson - RobotTechTest\Test\bin\Debug\Test.pdb
+C:\Users\Niall\Documents\Solutions\Niall Ferguson - RobotTechTest\Test\obj\Debug\BoardEx.RobotWars.csprojResolveAssemblyReference.cache
+C:\Users\Niall\Documents\Solutions\Niall Ferguson - RobotTechTest\Test\obj\Debug\Test.exe
+C:\Users\Niall\Documents\Solutions\Niall Ferguson - RobotTechTest\Test\obj\Debug\Test.pdb
