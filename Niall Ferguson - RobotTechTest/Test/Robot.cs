@@ -20,20 +20,20 @@ namespace Test
     public class Robot : IRobot
     {
         private ISignalReciever _signalReceiver;
-        private CrashSensor _crashSensor;
+        private Arena _arena;
 
         public int CoordX { get; private set; }
         public int CoordY { get; private set; }
         public int Penalties { get; private set; }
         public Direction Direction { get; private set; }       
 
-        public Robot(int coordX, int coordY, Direction direction, CrashSensor crashSensor, ISignalReciever signalreceiver)
+        public Robot(int coordX, int coordY, Direction direction, Arena arena, ISignalReciever signalreceiver)
         {
             CoordX = coordX;
             CoordY = coordY;
             Direction = direction;
             Penalties = 0;
-            _crashSensor = crashSensor;
+            _arena = arena;
             _signalReceiver = signalreceiver;
         }
 
@@ -109,7 +109,7 @@ namespace Test
 
         private void TryMove(int x, int y)
         {
-            if (_crashSensor.Update())
+            if (IsOutOfBounds(x, y))
             {
                 Penalties++;
             }
@@ -118,6 +118,19 @@ namespace Test
                 CoordX = x;
                 CoordY = y;
             }
-        }       
+        }
+
+        private bool IsOutOfBounds(int x, int y)
+        {
+
+            if (x < 0 || x > _arena.X || y < 0 || y > _arena.Y)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }
