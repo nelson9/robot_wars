@@ -10,17 +10,12 @@ namespace Test
     {
         string Update(IRobot robot);
     }
-    public class SignalReciever : ISignalReciever
-    {
-     
+    public class PositionSignalReciever : ISignalReciever
+    {     
         public string Update(IRobot robot)
-        {
-            
-            var output =  robot.CoordX + " " + robot.CoordY + " " + robot.Direction.ToString() + " " + robot.Penalties;
-            Console.WriteLine(output);
-            return output;
+        {                    
+            return robot.CoordX + " " + robot.CoordY + " " + robot.Direction.ToString() + " " + robot.Penalties;
         }
-
      
     }
 }

@@ -11,9 +11,9 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            var arena = new Arena(5, 5);
-            var signalReciever = new SignalReciever();
-            IRobot robot = new Robot(0, 0, Direction.N, arena, signalReciever);
+            var arena = new Arena(4, 4);
+            var signalReciever = new PositionSignalReciever();
+            IRobot robot = new Robot(1, 3, Direction.N, arena, signalReciever);
 
             
             var move = new RobotCommand(new Move(robot));
