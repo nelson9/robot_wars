@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Test.Enums;
 
 namespace Test
 {
@@ -19,8 +20,8 @@ namespace Test
 
     public class Robot : IRobot
     {
-        private ISignalReciever _signalReceiver;
-        private Arena _arena;
+        private readonly ISignalReciever _signalReceiver;
+        private readonly Arena _arena;
 
         public int CoordX { get; private set; }
         public int CoordY { get; private set; }
@@ -122,15 +123,7 @@ namespace Test
 
         private bool IsOutOfBounds(int x, int y)
         {
-
-            if (x < 0 || x > _arena.X || y < 0 || y > _arena.Y)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return x < 0 || x > _arena.X || y < 0 || y > _arena.Y;
         }
     }
 }

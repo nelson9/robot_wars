@@ -1,10 +1,8 @@
-﻿using Test.Commands;
-
-namespace Test
+﻿namespace Test.Commands
 {
     public class TurnLeft : ICommand
     {
-        private IRobot _robot;
+        private readonly IRobot _robot;
 
         public TurnLeft(IRobot robot)
         {

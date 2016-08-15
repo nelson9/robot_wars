@@ -9,3 +9,8 @@ C:\Users\Niall\Documents\GitHub\robot_wars\Niall Ferguson - RobotTechTest\Test\b
 C:\Users\Niall\Documents\GitHub\robot_wars\Niall Ferguson - RobotTechTest\Test\obj\Debug\BoardEx.RobotWars.csprojResolveAssemblyReference.cache
 C:\Users\Niall\Documents\GitHub\robot_wars\Niall Ferguson - RobotTechTest\Test\bin\Debug\Test.dll
 C:\Users\Niall\Documents\GitHub\robot_wars\Niall Ferguson - RobotTechTest\Test\obj\Debug\Test.dll
+C:\robot-wars\Niall Ferguson - RobotTechTest\Test\bin\Debug\Test.dll
+C:\robot-wars\Niall Ferguson - RobotTechTest\Test\bin\Debug\Test.pdb
+C:\robot-wars\Niall Ferguson - RobotTechTest\Test\obj\Debug\BoardEx.RobotWars.csprojResolveAssemblyReference.cache
+C:\robot-wars\Niall Ferguson - RobotTechTest\Test\obj\Debug\Test.dll
+C:\robot-wars\Niall Ferguson - RobotTechTest\Test\obj\Debug\Test.pdb

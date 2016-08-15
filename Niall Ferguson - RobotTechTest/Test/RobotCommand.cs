@@ -4,8 +4,8 @@ namespace Test
 { 
 
     public class RobotCommand
-    {  
-        ICommand _iCommand;
+    {
+        readonly ICommand _iCommand;
 
         public RobotCommand(ICommand command)
         {

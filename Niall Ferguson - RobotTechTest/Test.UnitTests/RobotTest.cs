@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
 using System;
 using Test.Commands;
+using Test.Enums;
 
 namespace Test.UnitTests
 {
